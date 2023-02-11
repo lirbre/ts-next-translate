@@ -1,7 +1,7 @@
 import { TranslationQuery } from 'next-translate'
 import useTranslation from 'next-translate/useTranslation'
 
-import { LanguageList, LocaleInfoList, LocaleList } from 'locales/types'
+import { LanguageList, LocaleInfoList, LocaleList } from '@/locales/types'
 
 export type TypedTranslate<T extends LocaleInfoList> = (
   i18nKey: LocaleList<T>,

@@ -4,4 +4,4 @@ export const i18n = {
     "pages": {
       "*": ["common"]
     }
-}
+} as const

@@ -2,7 +2,7 @@ import { CommonEN } from './en/_types'
 import { CommonES } from './es/_types'
 import { CommonPTBR } from './pt-BR/_types'
 
-import {i18n} from 'i18n'
+import { i18n } from 'i18n'
 
 export type LocaleCommon = keyof CommonEN & keyof CommonES & keyof CommonPTBR
 
