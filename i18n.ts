@@ -1,7 +1,1 @@
-export const i18n = {
-    "locales": ["pt-BR", "en", "es"],
-    "defaultLocale": "en",
-    "pages": {
-      "*": ["common"]
-    }
-} as const
+export const locales = ["pt-BR", "en", "es"] as const
