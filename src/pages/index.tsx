@@ -14,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <a rel='noreferrer' href='https://www.linkedin.com/in/lirbre/'>{t('reach_me_at')}</a>
-        <a rel='noreferrer' href='https://www.linkedin.com/in/lirbre/'>{t('typescript_rules')}</a>
+        <a rel='noreferrer' target="_blank" href='https://www.linkedin.com/in/lirbre/'>{t('reach_me_at')}</a>
+        <a rel='noreferrer' target="_blank" href='https://www.linkedin.com/in/lirbre/'>{t('typescript_rules')}</a>
       </main>
     </>
   )
